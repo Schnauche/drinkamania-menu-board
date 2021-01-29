@@ -1,8 +1,12 @@
+import '../stylesheets/menuColumn.css';
 
-function MenuColumn() {
+function MenuColumn(props) {
+
     return (
-        <div class="menuColumn">
-
+        <div class={props.bordered ? "menuColumn bordered" : "menuColumn"}>
+            
         </div>
     )
 }
+
+export default MenuColumn;

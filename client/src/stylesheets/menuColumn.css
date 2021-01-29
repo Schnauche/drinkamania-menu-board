@@ -1,0 +1,11 @@
+.menuColumn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.bordered {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
