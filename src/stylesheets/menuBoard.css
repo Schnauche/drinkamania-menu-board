@@ -1,5 +1,13 @@
 .menuBoard {
     height: 90%;
+    border: 5px solid;
+    border-image-source: linear-gradient(-1deg, #009279,#FFE8EF);
+    border-image-slice: 1;
+}
+
+.menuContent {
+    height: 97%;
+    margin: 1% 0 2% 0;
     display: flex;
 }
 
