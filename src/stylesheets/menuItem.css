@@ -1,0 +1,40 @@
+.menuItem {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: 1px solid #009279;
+    padding: 1% 2% 1% 2%;
+}
+
+.menuItemContent {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 100%;
+}
+
+.menuItemHeader {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.menuItemHeaderLeft {
+    text-align: left;
+    width: 50%;
+}
+
+.menuItemHeaderRight {
+    text-align: right;
+    width: 50%;
+}
+
+.beerName {
+    font-weight: bold;
+}
+
+.brewerName {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.beerDescription {
+    font-size: .75em;
+}
