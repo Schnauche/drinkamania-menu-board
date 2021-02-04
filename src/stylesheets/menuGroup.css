@@ -1,0 +1,12 @@
+.menuGroup {
+    padding: 0 1rem 0 1rem;
+    border-bottom: 1px solid #009279;
+}
+
+.menuGroup > div {
+    padding: .25rem 0 .25rem 0;
+}
+
+div:not(:last-child):after {
+    border-bottom: 1px solid black;
+}

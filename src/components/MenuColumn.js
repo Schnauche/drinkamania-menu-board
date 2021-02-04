@@ -1,12 +1,11 @@
 import '../stylesheets/menuColumn.css';
-import MenuItem from './MenuItem.js';
+import MenuGroup from './MenuGroup.js';
 
 function MenuColumn(props) {
-    console.log(props);
     return (
         <div className={props.bordered ? "menuColumn bordered" : "menuColumn"}>
             {props.ColumnData.map(v => {
-                return <MenuItem ItemData={v} />;
+                return <MenuGroup GroupData={v} />;
             })}
         </div>
     )
